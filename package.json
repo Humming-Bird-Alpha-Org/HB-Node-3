@@ -1,0 +1,16 @@
+{
+  "name": "hb-node-3",
+  "version": "1.0.0",
+  "description": "a simple node project with minimal issues",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "directus": "^10.0.0",
+    "zmarkdown": "^10.0.0"
+  }
+}
