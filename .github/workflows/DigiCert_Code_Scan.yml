@@ -16,7 +16,7 @@ jobs:
         run: echo "VITE_SECRET_KEY=${{ secrets.LICENSE_KEY }}" > ui/.env
 
       - name: Install UI dependencies
-        run: npm ci
+        run: npm i
         working-directory: ui
 
       - name: Build UI project
